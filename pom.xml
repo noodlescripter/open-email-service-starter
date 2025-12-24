@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>open.email.service</groupId>
+  <artifactId>open-email-service-starter</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>open-email-service-starter</name>
+  <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/noodlescripter/open-email-service-starter</url>
+    </repository>
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.42</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>javax.mail-api</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+  </dependencies>
+</project>
